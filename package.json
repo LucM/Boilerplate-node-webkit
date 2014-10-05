@@ -1,0 +1,26 @@
+{
+  "name": "nw-demo",
+  "main": "dist/app/index.html",
+  "window": {
+    "frame": true,
+    "toolbar": true,
+    "icon": "icon.jpeg"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-cached": "^1.0.1",
+    "gulp-coffee": "^2.2.0",
+    "gulp-compass": "^1.3.2",
+    "gulp-initial-cleaning": "0.0.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-symlink": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-inject": "^1.0.2",
+    "install": "^0.1.7",
+    "node-webkit-screenshot": "^0.2.1"
+  }
+}
